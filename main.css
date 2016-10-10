@@ -1,0 +1,239 @@
+﻿body {
+    margin: 10px;
+    display: block;
+    background: #DADADA;
+    font-size: 20px;
+
+}
+div {
+    display: block;
+}
+
+.bl-background {
+    background: #DADADA;
+    width: 100%;
+    margin: auto;
+
+}
+.bl-list {
+    display: inline-block;
+    min-width: 550px;
+    width: 50%;
+    margin-left: 3%;
+    background: white;
+    padding: 0px;
+    margin-top: 8%;
+    border-radius: 8px;
+}
+
+.right {
+    margin-top: 8%;
+    display: inline-block;
+    width: 300px;
+    background: white; /*firebreek*/
+
+    border-radius: 10px;
+
+    margin-left: 3%;
+
+}
+
+.margin {
+
+    margin-bottom: 13px;
+
+}
+
+.container {
+    display: inline-block;
+    padding: 15px;
+    height: 40px;
+    width: 90%;
+    border-radius: 10px;
+    margin-left: 13px;
+    margin-top: 13px;
+}
+
+.inputs {
+    width: 70%;
+    height: 36px;
+    border-radius: 5px 0px 0px 5px;
+    padding-left: 10px;
+    padding-right: 0px;
+    margin-right: 0px;
+
+}
+
+.add {
+    font-size: 15pt;
+    font-weight: 600;
+    width: 24%;
+    height: 42px;
+    border-radius: 0px 8px 8px 0px;
+    background: blue;
+    color: white;
+    padding-left: 0px;
+    margin-left: -5px;
+}
+
+
+
+.input {
+    border-radius: 7px;
+    padding: 10px;
+    height:60%;
+    width:75%;
+}
+
+.name1 {
+    display: inline-block;
+    border-top: 2px;
+    border-bottom: 2px;
+    width: 33%;
+    margin-top: 7px;
+}
+
+.count {
+    display: inline;
+    width: 33%;
+}
+
+.buttons {
+    display: inline;
+    float: right;
+    width: 33%;
+}
+
+.products {
+    box-sizing: border-box;
+    border-top: 1px solid #cdcbcb;
+    padding: 10px;
+    height: 60px;
+}
+/*********Кнопки******/
+.minus {
+    font-weight: 700;
+    color: #FFF;
+    background: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.plus {
+    font-weight: 700;
+    color: #FFF;
+    background: green;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: -5px;
+}
+
+.bought {
+    width: 80%;
+    height: 39px;
+    border-radius: 7px;
+}
+
+.delete {
+    font-weight: 700;
+    color: #FFF;
+    background: red;
+    width: 30px;
+    height: 30px;
+}
+.number {
+    padding-left: 13px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 0px;
+
+}
+
+
+.last {
+    padding: 15px;
+    font-size: 20pt;
+}
+
+.what {
+    padding: 10px;
+    border-top: 3px solid black ;
+}
+
+.tomato {
+    display: inline-block;
+    background: #bcbcbc;
+    border-radius: 4px;
+    padding: 7px;
+    margin: 2px;
+}
+
+.number-tomato {
+    padding: 2px 8px;
+    background: orangered;
+    color: white;
+    border-radius: 360px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.badge {
+    transition: all 0.3s linear 0.1s;
+    position: fixed;
+    bottom: -90px;
+    left: 30px;
+    color:white;
+    background-color: indigo;
+    font-size: 20px;
+
+    padding:20px;
+    border-radius: 10px;
+
+}
+
+.badge:hover {
+    bottom: 0px;
+    background-color: green;
+}
+
+.buy-list {
+    margin-bottom:25px;
+}
+
+@media print {
+    .badge {
+        background-color: white;
+        border: 1px solid #000000;
+        color: black;
+        font-weight: 600;
+    }
+
+    .buy-list {
+        display: none;
+    }
+}
